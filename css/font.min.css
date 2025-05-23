@@ -1,0 +1,37 @@
+/*!
+ * Your Font Name v1.0.0
+ * https://github.com/yourusername/your-font-repo
+ */
+
+ @font-face {
+    font-family: 'YourFont';
+    src: url('../fonts/YourFont-Regular.woff2') format('woff2'),
+         url('../fonts/YourFont-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'YourFont';
+    src: url('../fonts/YourFont-Bold.woff2') format('woff2'),
+         url('../fonts/YourFont-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  /* Utility classes */
+  .font-yourfont {
+    font-family: 'YourFont', Arial, sans-serif;
+  }
+  
+  .font-yourfont-regular {
+    font-family: 'YourFont', Arial, sans-serif;
+    font-weight: 400;
+  }
+  
+  .font-yourfont-bold {
+    font-family: 'YourFont', Arial, sans-serif;
+    font-weight: 700;
+  }
